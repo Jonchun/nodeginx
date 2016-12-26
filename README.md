@@ -11,9 +11,9 @@ so,
      |-- nginx.config
      |-- sites-enabled
      |    |-- site-one
-     |    +-- site-two
      +-- sites-available
-          |-- site-two
+          |-- site-one
+          +-- site-two
 ```
 
 server blocks are setup in the sites-available directory and are "turned on"
